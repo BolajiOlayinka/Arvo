@@ -1,22 +1,51 @@
-.App {
-  text-align: center;
+:root{
+  --mainBlue: #047496;
+  --mainYellow: #FFD809;
+  --deepBlue: #1D87A3;
+  --mainAsh: #F0F0F0;
+  --mainWhite: #FCFDFD;
+  --buttonBlue: #007194;
+  --lightBlack: #555555;
 }
 
-.App-logo {
-  height: 40vmin;
+body{
+  width:100%;
+  background-color: var(--buttonBlue);
+  background-image: url("./images/body-background.png");
+  background-repeat: no-repeat;
+  background-size: 60em 60em;
+  color: var(--mainBlue);
+  font-family: 'Roboto', sans-serif;
 }
+@media (max-width:1024px){
+  body{
+    background-size: 50em 60em;
+  }
+}
+@media (max-width:992px){
+  body{
+    background-size: 50em 70em;
+  }
+}
+  @media(max-width:425px){
+    body{
+      background-size: 50em 55em;
+    }
+    .phone {
+      margin-top:-6em;
+    }
+  }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+/* .bannerArea{
+  width: 80rem;
+  height: 80rem;
+  border-radius:50%;
+  background-color: var(--mainAsh);
+  position:absolute;
+  left:-30vh;
+  top:-30vh;
+  margin-top:-20rem;
+  margin-left:-15rem
+} */
 
-.App-link {
-  color: #09d3ac;
-}
+

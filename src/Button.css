@@ -1,0 +1,67 @@
+.button{
+    padding:0.3em 1.3em;
+    display:flex;
+    align-items: flex-end;
+    align-self: center;
+    color:var(--mainWhite);
+    background-color: transparent;
+    margin:1rem;
+    border-radius:2rem;
+    border-style: solid;
+    border-color: 1px solid var(--mainWhite);
+  
+}
+.buttonYellow{
+    padding:0.3rem 1.3rem;
+    display:flex;
+    align-items: flex-end;
+    align-self: center;
+    background-color: var(--mainYellow);
+    color:var(--mainWhite);
+    margin:1rem;
+    border-radius:2rem;
+    border-style:solid;
+    border-color: 1px;
+    margin-right:2rem;
+}
+#buttonWhite{
+    border-radius:2em 0em 0em 2em;
+    margin:0em;
+    background-color: var(--mainAsh);
+    color: var(--deepBlue);
+    padding:0.3rem 1.3rem;
+    
+    
+    
+}
+#buttonAdvert{
+    border-radius: 0em 2em 2em 0em;
+    margin:0em;
+    color: var(--deepBlue);
+    padding:0.4rem 1.3rem;
+    border-style:solid;
+}
+.buttonArea{
+    position:relative;
+    z-index:2;
+    display:flex;
+    justify-content: center;
+   
+}
+#start{
+    border-style:none;
+    color: var(--mainBlue);
+    margin:0em;
+    margin-top:2em;
+}
+#create{
+    color: var(--deepBlue);
+    margin:auto;
+    margin-top:1em;
+    
+}
+@media (max-width:1024px){
+    .button{
+    padding:0.1em 1em;
+    }
+}
