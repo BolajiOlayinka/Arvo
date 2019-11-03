@@ -21,10 +21,16 @@
 }
 @media(max-width:425px){
     .ellipse1{
-width:90%;
+        width:90%;
     }
     .ellipse2{
-        right:-3%;
-        width:90%;
+        /* right:-3%; */
+        width:100%;
+    }
+    .footerEnd p{
+        text-align:center;
+    }
+    .footerEnd>a>p {
+        margin:auto;
     }
 }

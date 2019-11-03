@@ -1,54 +1,82 @@
-.navbar{
+.navbar {
     /* position:fixed;
     top: 0vh;
     left:0vh; */
-   display:flex;
-   align-items: center;
-   background-color:transparent;
-   width:100%;
-   
-  }
-#navItems{
-margin-left:5rem;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    width: 100%;
+
 }
+
+#navItems {
+    margin-left: 5rem;
+}
+
 .navbar-brand {
-margin-left:3rem;
+    margin-left: 3rem;
 }
-.navbar-nav{
-    padding:auto;
+
+.navbar-nav {
+    padding: auto;
     align-content: space-around;
-    padding:0em 3em;
+    padding: 0em 3em;
     text-align: center;
-    font-size:1em;
-    color:var(--mainBlue);
-    margin:auto;
-    
-}
-.navbar-nav .nav-link{
-    color:var(--mainBlue)!important;
-    padding:0em 1rem!important;
+    font-size: 1em;
+    color: var(--mainBlue);
+    margin: auto;
+
 }
 
-@media (max-width:1024px){
-    .navbar-nav{
-    font-size:0.8em;
+.navbar-nav .nav-link {
+    color: var(--mainBlue) !important;
+    padding: 0em 1rem !important;
+}
+
+@media (max-width:1024px) {
+    .navbar-nav {
+        font-size: 0.8em;
     }
-    .navbar-nav .nav-link{
+
+    .navbar-nav .nav-link {
         padding: 0em 0.2em;
-        font-size:1em;
-        display:flex;
-    }
-}
-    @media (max-width:375px){
-        .navbar-light .navbar-toggler {
-            margin-right:1em;
-    }
-}
-    @media (max-width:320px){
-        .navbar-light .navbar-toggler {
-            margin-right:0em;
+        font-size: 1em;
+        display: flex;
     }
 }
 
+@media (max-width:992px) {
+    .navbar-toggler {
+        border-style: none;
+    }
 
+    .navbar-toggler-icon {
+        color: var(--deepBlue);
+    }
+}
+@media (max-width:375px) {
+    .navbar-brand {
+        margin-left: 1em;
+    }
+}
+@media (max-width:375px) {
+    .navbar-light .navbar-toggler {
+        margin-right: 0.5em !important;
+        color: var(--deepBlue) !important;
 
+    }
+
+    .navbar-brand {
+        margin-left: 1em;
+    }
+
+    .navbar-toggler-icon {
+        margin-right: 0.5em;
+    }
+}
+
+@media (max-width:320px) {
+    .navbar-light .navbar-toggler {
+        margin-right: 0em;
+    }
+}

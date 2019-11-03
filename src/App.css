@@ -1,4 +1,4 @@
-:root{
+:root {
   --mainBlue: #047496;
   --mainYellow: #FFD809;
   --deepBlue: #1D87A3;
@@ -8,8 +8,8 @@
   --lightBlack: #555555;
 }
 
-body{
-  width:100%;
+body {
+  width: 100%;
   background-color: var(--buttonBlue);
   background-image: url("./images/body-background.png");
   background-repeat: no-repeat;
@@ -17,24 +17,36 @@ body{
   color: var(--mainBlue);
   font-family: 'Roboto', sans-serif;
 }
-@media (max-width:1024px){
-  body{
+
+@media (max-width:1024px) {
+  body {
     background-size: 50em 60em;
   }
 }
-@media (max-width:992px){
-  body{
+
+@media (max-width:992px) {
+  body {
     background-size: 50em 70em;
   }
 }
-  @media(max-width:425px){
-    body{
-      background-size: 50em 55em;
-    }
-    .phone {
-      margin-top:-6em;
-    }
+
+@media(max-width:425px) {
+  body {
+    background-size: 50em 55em;
   }
+
+  .phone {
+    margin-top: -6em;
+  }
+
+  @media(max-width:320px) {
+    body {
+      width: 100%;
+      /* background-size: 10em 70em; */
+    }
+
+  }
+}
 
 /* .bannerArea{
   width: 80rem;
@@ -47,5 +59,3 @@ body{
   margin-top:-20rem;
   margin-left:-15rem
 } */
-
-

@@ -1,110 +1,148 @@
-.advertContent{
-    width:70%;
-    margin:auto;
-    padding-top:4em;
-    text-align:center;
+.advertContent {
+    width: 70%;
+    margin: auto;
+    padding-top: 4em;
+    text-align: center;
     color: var(--mainAsh);
 }
-.advertInvest{
-    margin:auto;
-    width:40%;
-    font-size:2em;
-    text-align:justify;
-    line-height:1.2em;
-    margin-bottom:2em;
+
+.advertInvest {
+    margin: auto;
+    width: 40%;
+    font-size: 2em;
+    text-align: justify;
+    line-height: 1.2em;
+    margin-bottom: 2em;
 }
-.line{
+
+.line {
     background-color: var(--mainAsh);
 
-    position:relative;
-    margin-top:-1.1em;
-    z-index:1;
+    position: relative;
+    margin-top: -1.1em;
+    z-index: 1;
 
 }
-.loanRight img{
-    width:80%;
+
+.loanRight img {
+    width: 80%;
 }
-.arvoLoan{
+
+.arvoLoan {
     margin: 5em 0em;
 }
-.loanLeft{
-    text-align:left;
-    margin:5em 2em;
+
+.loanLeft {
+    text-align: left;
+    margin: 5em 2em;
 }
 
-.loanLeft img{
-padding-bottom:2em;
-}
-.loanLeft h2{
-    padding-bottom:0.5em
-}
-.loanLeft p{
-    line-height:2em;
+.loanLeft img {
+    padding-bottom: 2em;
 }
 
-.logoArea{
-    position:absolute;
-    z-index:6;
-    margin-top:35em;
-    
-    width:100%;
-}
-.logoArea img{
-    padding:auto;
-}
-.logoArea #bigLogo{
-    width:10%;
+.loanLeft h2 {
+    padding-bottom: 0.5em
 }
 
-@media (max-width:1024px){
-.advertContent{
-    width:80%;
+.loanLeft p {
+    line-height: 2em;
 }
-.logoArea{
-    margin-top:30em;
+
+.logoArea {
+    position: absolute;
+    z-index: 6;
+    margin-top: 35em;
+
+    width: 100%;
 }
+
+.logoArea img {
+    padding: auto;
 }
-@media (max-width:992px){
-    .advertContent{
-        width:100%;
-        padding-top:1em;
+
+.logoArea #bigLogo {
+    width: 10%;
+}
+
+@media (max-width:1024px) {
+    .advertContent {
+        width: 80%;
     }
-    .advertInvest{
-        width:50%;
-        text-align:justify;
+
+    .logoArea {
+        margin-top: 30em;
     }
-    .line{
-        width:100%;
+}
+
+@media (max-width:992px) {
+    .advertContent {
+        width: 100%;
+        padding-top: 1em;
     }
-    .loanLeft{
-        text-align:center;
+
+    .advertInvest {
+        width: 50%;
+        text-align: justify;
     }
-    .arvoLoan{
-        text-align:center;
+
+    .line {
+        width: 100%;
     }
-    #start{
-        text-align:center;
-        margin:auto;
+
+    .loanLeft {
+        text-align: center;
     }
+
+    .arvoLoan {
+        text-align: center;
+    }
+
+    #start {
+        text-align: center;
+        margin: auto;
+    }
+
     .loanRight img {
-        width:40%;
-        margin:auto;
-        padding-top:0em;
+        width: 40%;
+        margin: auto;
+        padding-top: 0em;
     }
-    .logoArea img{
-        width:10em;
+
+    .logoArea img {
+        width: 10em;
     }
-    
+
 }
-@media (max-width:425px){
+
+@media (max-width:425px) {
     .advertInvest {
         width: 80%;
-        font-size:2em;
+        font-size: 2em;
     }
-    .arvoLoan{
-        margin:0em;
+
+    .arvoLoan {
+        margin: 0em;
     }
-    .logoArea img{
+
+    .logoArea img {
         width: 5em
+    }
+
+    .advertArea p {
+        text-align: center;
+    }
+
+    .advertInvest {
+
+        font-size: 1.2em;
+
+    }
+}
+
+@media (max-width:375px) {
+    .loanLeft {
+        text-align: center;
+        margin: 5em 1em;
     }
 }

@@ -43,7 +43,7 @@ export default function Banner() {
                  </div>
                  <div class="row">
                  <Card
-                            cardColClass={"col-sm-4 col-lg-4 col-md-12"}
+                            cardColClass={"col-sm-12 col-lg-4 col-md-12"}
                             
                             cardImage={<img src= {mortgage} alt="mortgage" className="card-image"/> }
                             cardBorder={"card border-default mx-auto"}

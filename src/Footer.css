@@ -1,74 +1,101 @@
-.footer{
+.footer {
     background-color: var(--mainAsh);
-    position:absolute;
-    z-index:15;
-    width:100%;
-    height:40em;
-    margin-top:66em;
-    padding:5em;
-    
+    position: absolute;
+    z-index: 15;
+    width: 100%;
+    height: 40em;
+    margin-top: 66em;
+    padding: 5em;
+
 }
-.footerTitle{
-    
-    padding-bottom:2em;
+
+.footerTitle {
+
+    padding-bottom: 2em;
 }
-.footerTitle a{
+
+.footerTitle a {
     color: var(--deepBlue);
 }
-.footerBody>p>a{
-    color:var(--lightBlack)
+
+.footerBody>p>a {
+    color: var(--lightBlack)
 }
-.footerBody>p>a>img{
-    padding:1em 1em 1em 0em;
+
+.footerBody>p>a>img {
+    padding: 1em 1em 1em 0em;
 }
-.footerLine{
-    margin-top:5em;
-    height:1em;
-    background-color:2px solid var(--deepBlue);
-    border-color:2px solid var(--deepBlue);
+
+.footerLine {
+    margin-top: 5em;
+    height: 1em;
+    background-color: 2px solid var(--deepBlue);
+    border-color: 2px solid var(--deepBlue);
 }
-.footerEndIcon{
-    display:flex;
-   
+
+.footerEndIcon {
+    display: flex;
+
 }
-.footerEndIcon img{
-    padding-right:1em;
+
+.footerEndIcon img {
+    padding-right: 1em;
 }
-.footerEndIcon>p{
-    float:right;
+
+.footerEndIcon>p {
+    float: right;
 }
-.copyRight{
-    display:flex;
+
+.copyRight {
+    display: flex;
     align-items: flex-end;
     align-self: center;
 }
 
-@media(max-width:1024px){
-    .footer{
-    margin-top:49.4em;
+@media(max-width:1024px) {
+    .footer {
+        margin-top: 49.4em;
     }
 }
-@media(max-width:992px){
-    .footer{
-    height:60em
+
+@media(max-width:992px) {
+    .footer {
+        height: 60em
     }
-    .copyRight{
-    padding-top:2em;
-    padding-bottom:2em;
+
+    .copyRight {
+        padding-top: 2em;
+        padding-bottom: 2em;
     }
+
     .navbar-light .navbar-toggler {
         color: var(--deepBlue);
-        border-color:none;
-        margin-right:3em;
+        border-color: none;
+        margin-right: 3em;
 
     }
 }
-@media(max-width:425px){
-    .footerEnd>p>a{
-        color:var(--mainWhite)   
+
+@media(max-width:425px) {
+    .footer {
+        margin-top: 50em;
     }
-    .copyRight{
-        color:var(--mainWhite)
+
+    .footerEnd>p>a {
+        color: var(--mainWhite)
     }
-    
+
+    .copyRight {
+        color: var(--mainWhite)
+    }
+
+    .footerEndIcon img {
+        width: 7em;
+        /* justify-content: center; */
+    }
+
+    .footerEnd {
+        /* justify-content: center; */
+    }
+
 }
