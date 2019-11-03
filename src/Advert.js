@@ -71,8 +71,7 @@ export default function Advert() {
             </div>
           </div>
         </div>
-
-        <Carousel />
+       <Carousel />
 
         <div className="row">
           <div className="col-lg-12">
